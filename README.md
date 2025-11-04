@@ -58,12 +58,12 @@ It helps verify that your **Spring Boot backend** endpoints are working correctl
 2. **Open Postman** → Create a new request tab
 3. **Choose a method** (like `GET`, `POST`, `PUT`, or `DELETE`)
 4. **Enter your endpoint**, for example:
-   - `GET http://localhost:8080/humans`
-   - `POST http://localhost:8080/humans`
+   - `GET http://localhost:8080/Earth`
+   - `POST http://localhost:8080/Earth`
 5. **For POST/PUT**, go to the **Body** tab → select **raw → JSON** → and type:
    ```json
    {
-     "name": "Aman",
+     "name": "Pirate",
      "tech": "Java",
      "aid": 101
    }
