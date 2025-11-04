@@ -3,17 +3,16 @@
 Welcome to my Spring Boot learning repository!
 This repo contains examples, notes, and practice projects I’ve built while learning Spring Boot and related frameworks.
 
-💻 Tech Stack
 
-Language: Java
+#Language: Java
 
 Framework: Spring Boot
 
 Database: MySQL / PostgreSQL
 
-Tools: IntelliJ IDEA, Postman, Maven
+Tools: STS4, IntelliJ IDEA, Postman, Maven
 
-What is Spring Boot?
+#What is Spring Boot?
 
 Spring Boot is a Java-based framework that makes it easy to create standalone, production-grade Spring applications.
 It simplifies development by removing complex XML configurations and automatically handling many setup tasks for you.
