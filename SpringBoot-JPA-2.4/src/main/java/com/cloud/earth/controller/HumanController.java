@@ -36,18 +36,14 @@ public class HumanController {
 	@RequestMapping("/humans")
 	@ResponseBody
 	public java.util.List<Human>  getHumans()
-	{
-		
+
 		return repo.findAll();
-		
 	}
 	
 	@RequestMapping("/human/{aid}")
 	@ResponseBody
 	public Optional<Human> getHuman(@PathVariable("aid") int aid)
-	{
-		
+    {
 		return repo.findById(aid);
-		
 	}
 }
