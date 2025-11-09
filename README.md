@@ -9,8 +9,18 @@ This repo contains examples, notes, and practice projects I’ve built while lea
 - **Language:** Java  
 - **Framework:** Spring Boot  
 - **Databases:** MySQL / PostgreSQL  
-- **Tools Used:** STS4, IntelliJ IDEA, Postman, Maven  
+- **Tools Used:** STS4, IntelliJ IDEA, Postman, Maven
 
+---
+# 🧱 CRUD REST API Application
+
+## 📘 About
+This is a simple **REST API application** that performs **CRUD (Create, Read, Update, Delete)** operations.  
+It demonstrates how to handle data using HTTP methods such as:
+- **POST** → Create new data
+- **GET** → Retrieve data
+- **PUT** → Update existing data
+- **DELETE** → Remove data
 ---
 
 ## 🚀 What is Spring Boot?
