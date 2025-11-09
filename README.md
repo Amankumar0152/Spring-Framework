@@ -81,6 +81,12 @@ It helps verify that your **Spring Boot backend** endpoints are working correctl
 
 ---
 
+### 💫 About Me
+- 🌱 I love learning and building web applications  
+- ✨ Currently working on projects about environment & awareness  
+- 🎯 Interested in Java, Spring Boot, Frontend & API development  
+- 📚 Always exploring new technologies to grow  
+
 ## 🗄️ What is JPA (Java Persistence API)?
 
 **JPA** is a specification that allows you to manage relational data in Java applications.  
@@ -90,6 +96,8 @@ It defines how Java objects (entities) are mapped to database tables.
 - Simplifies database operations (CRUD) using objects instead of SQL queries.  
 - Works with ORM frameworks like **Hibernate** for automatic SQL generation.  
 - Allows easy data persistence and retrieval using **Repository Interfaces**.
+
+---
 
 ### 💡 Example
 ```java
@@ -101,10 +109,4 @@ public interface HumanRepo extends JpaRepository<Human, Integer> {
     List<Human> findByTechSorted(String tech);
 }
 
----
 
-### 💫 About Me
-- 🌱 I love learning and building web applications  
-- ✨ Currently working on projects about environment & awareness  
-- 🎯 Interested in Java, Spring Boot, Frontend & API development  
-- 📚 Always exploring new technologies to grow  
