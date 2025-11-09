@@ -100,3 +100,11 @@ public interface HumanRepo extends JpaRepository<Human, Integer> {
     @Query("from Human where tech=?1 order by name")
     List<Human> findByTechSorted(String tech);
 }
+
+---
+
+### 💫 About Me
+- 🌱 I love learning and building web applications  
+- ✨ Currently working on projects about environment & awareness  
+- 🎯 Interested in Java, Spring Boot, Frontend & API development  
+- 📚 Always exploring new technologies to grow  
